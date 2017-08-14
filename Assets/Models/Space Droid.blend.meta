@@ -7,12 +7,16 @@ ModelImporter:
   fileIDToRecycleName:
     100000: DroidHead
     100002: //RootNode
+    100004: DroidBase
     400000: DroidHead
     400002: //RootNode
+    400004: DroidBase
     2300000: DroidHead
     2300002: //RootNode
+    2300004: DroidBase
     3300000: DroidHead
     3300002: //RootNode
+    3300004: DroidBase
     4300000: DroidBase
     4300002: DroidHead
     7400000: Default Take
