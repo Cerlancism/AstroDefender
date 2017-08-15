@@ -9,6 +9,7 @@ public class EnemyControl : MonoBehaviour
     public GameObject Laser;
     public GameObject AmmoDrop;
     public GameObject Healthdrop;
+    public GameObject Explosion;
     public Transform FirePoint;
     public Transform SpawnPoint;
     public Transform[] WayPointArray;
@@ -109,6 +110,7 @@ public class EnemyControl : MonoBehaviour
                 EnemySpawner.droidsKilled++;
                 SpawnDrops();
                 GlobalManager.UpdateScore(10);
+                Instantiate(Explosion, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
 

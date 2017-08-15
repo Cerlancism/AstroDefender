@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GlobalManager : MonoBehaviour
 {
     // === Public Variables ====
     public static int Score;
-
+    public AudioMixer mixer;
     // === Private Variables ====
 
 
@@ -21,6 +23,27 @@ public class GlobalManager : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public void LoadPlay()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(1);
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void SetMusic(float volume)
+    {
+        mixer.SetFloat("AudioMusic", volume);
+    }
+
+    public void SetSFX(float volume)
+    {
+        mixer.SetFloat("AudioSFX", volume);
     }
 
     private void FixedUpdate()

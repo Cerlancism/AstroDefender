@@ -27,6 +27,7 @@ public class WinGame : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Time.timeScale = 0;
+            GlobalManager.ShowWin();
         }
     }
 }

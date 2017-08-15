@@ -88,7 +88,7 @@ public class PlayerControl : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(navArrow.position - transform.position), 0.1f);
         }
 
-        if (Input.GetKeyUp(KeyCode.P))
+        if (Input.GetKeyUp(KeyCode.P) || Input.GetKeyUp(KeyCode.Escape))
         {
             if (Time.timeScale == 1)
             {
@@ -182,6 +182,7 @@ public class PlayerControl : MonoBehaviour
     void Die()
     {
         GetComponent<Collider>().enabled = false;
+        GameObject.Find("MESH_Infantry").GetComponent<SkinnedMeshRenderer>().enabled = false;
         GlobalManager.ShowDeath();
         InvokeRepeating("DieAnimation", 0, 1/60f);
     }

@@ -1,0 +1,54 @@
+Initialize engine version: 5.6.2f1 (a2913c821e27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   22.21.13.8165
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.019 seconds
+Platform assembly: D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\s_che\Documents\Acadmic SP\GDS\AstroDefender\Astro Defender_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.205777 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 578c -> priority: 1 
+  Thread -> id: 2c34 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+The tree PalmTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 140)
+
+The tree PalmTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 140)
+
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 140)
+
+UnloadTime: 12.526216 ms
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 1.795110 ms (FindLiveObjects: 0.090666 ms CreateObjectMapping: 0.030222 ms MarkObjects: 0.590221 ms  DeleteObjects: 1.083110 ms)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
