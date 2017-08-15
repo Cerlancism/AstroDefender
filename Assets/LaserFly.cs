@@ -44,4 +44,9 @@ public class LaserFly : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+    }
 }
