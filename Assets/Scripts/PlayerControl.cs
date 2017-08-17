@@ -104,6 +104,22 @@ public class PlayerControl : MonoBehaviour
         {
             Reload();
         }
+
+        //cheat codes
+        if (Input.GetKeyUp(KeyCode.F5))
+        {
+            EnemySpawner.droidGoal = 10;
+        }
+
+        if (Input.GetKeyUp(KeyCode.F6))
+        {
+            agent.speed = 24;
+        }
+
+        if (Input.GetKeyUp(KeyCode.F7))
+        {
+            agent.speed = 8;
+        }
     }
 
     void OnTriggerEnter(Collider other)

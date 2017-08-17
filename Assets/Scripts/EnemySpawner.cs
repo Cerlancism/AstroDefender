@@ -10,20 +10,27 @@ public class EnemySpawner : MonoBehaviour
     public int MaxDefaultCoount;
     public static int droidCount;
     public static int droidsKilled;
-    // === Private Variables ====
 
+    public static int droidGoal = 100;
+    // === Private Variables ====
+    private bool isRetreat = false;
 
     // Use this for initialization
     void Start()
     {
+        droidCount = 0;
+        isRetreat = false;
+        droidsKilled = 0;
         InvokeRepeating("SpawnDroid", 0, 5f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (droidsKilled > 100)
+        if (droidsKilled > droidGoal && !isRetreat)
         {
+            Debug.Log("Retreat");
+            isRetreat = true;
             foreach (var gameobj in GameObject.FindGameObjectsWithTag("Droid"))
             {
                 gameobj.GetComponent<EnemyControl>().state = EnemyControl.AIState.RETREAT;
